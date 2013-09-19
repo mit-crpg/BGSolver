@@ -2,6 +2,9 @@
 *.txt    eol=crlf
 *.md     eol=crlf
 
-README.md export-ignore
-.gitattributes export-ignore  
-.gitignore export-ignore
+*.pdf    binary
+*.mex*   binary
+
+*.md export-ignore
+*.gitattributes export-ignore  
+*.gitignore export-ignore
