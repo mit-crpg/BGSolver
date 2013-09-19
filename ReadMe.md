@@ -21,7 +21,7 @@ To uninstall BGSolver v1.03:
 Note on *.mex* file compilation:
 --------------------------------
 
-BGSolver v1.03 contains two .c files that can be compiled into *.mex*. [/BG_Processor/evalxdot.c](BG_Processor/evalxdot.c] function, in particular, greatly improves the code's performance if it is compiled into a *.mex* file. Note, that the code is fully functional WITHOUT compiling any of the .c files as well, but ensuring that *.mex* files are present may improve the code performance.
+BGSolver v1.03 contains two .c files that can be compiled into *.mex*. [/BG_Processor/evalxdot.c](BG_Processor/evalxdot.c) function, in particular, greatly improves the code's performance if it is compiled into a *.mex* file. Note, that the code is fully functional WITHOUT compiling any of the .c files as well, but ensuring that *.mex* files are present may improve the code performance.
 
 To compile the *.mex* files:
 
