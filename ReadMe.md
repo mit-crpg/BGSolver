@@ -35,11 +35,8 @@ To compile the **.mex** files:
 
 The code is distributed with **.mexw64** (64-bit Windows) executables, so there is no need to recompile the **.c** files on a 64-bit Windows platform.
 
-To familiarize one's self with how the MATLAB Executable files (**.mex**) work:\n
-[http://www.mathworks.com/help/matlab/create-mex-files.html](http://www.mathworks.com/help/matlab/create-mex-files.html)
+To familiarize one's self with how the MATLAB Executable files (**.mex**) work:[http://www.mathworks.com/help/matlab/create-mex-files.html](http://www.mathworks.com/help/matlab/create-mex-files.html)
 
-To compile a **.mex** file, a correctly configured compiler is necessary. See:\n
-[http://www.mathworks.com/help/matlab/matlab_external/building-mex-files.html](http://www.mathworks.com/help/matlab/matlab_external/building-mex-files.html)
+To compile a **.mex** file, a correctly configured compiler is necessary. See:[http://www.mathworks.com/help/matlab/matlab_external/building-mex-files.html](http://www.mathworks.com/help/matlab/matlab_external/building-mex-files.html) 
 
-Compiled executables for [/Utilities/GetFullPath/GetFullPath.c](Utilities/GetFullPath/GetFullPath.c) can also be found at:\n
-[http://www.n-simon.de/mex](http://www.n-simon.de/mex)
+Compiled executables for [/Utilities/GetFullPath/GetFullPath.c](Utilities/GetFullPath/GetFullPath.c) can also be found at:[http://www.n-simon.de/mex](http://www.n-simon.de/mex)
