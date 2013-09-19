@@ -21,7 +21,7 @@ To uninstall BGSolver v1.03:
 Note on *.mex* file compilation:
 --------------------------------
 
-BGSolver v1.03 contains two .c files that can be compiled into *.mex*. [/BG_Processor/evalxdot.c](BG_Processor/evalxdot.c] function, in particular, greatly improves the code's performance if it is compiled into a *.mex* file. Note, that the code is fully functional WITHOUT compiling any of the .c files as well, but ensuring that *.mex* files are present may improve the code performance.
+BGSolver v1.03 contains two .c files that can be compiled into *.mex*. [/BG_Processor/evalxdot.c](BG_Processor/evalxdot.c) function, in particular, greatly improves the code's performance if it is compiled into a *.mex* file. Note, that the code is fully functional WITHOUT compiling any of the .c files as well, but ensuring that *.mex* files are present may improve the code performance.
 
 To compile the *.mex* files:
 
@@ -36,11 +36,9 @@ To compile the *.mex* files:
 The code is distributed with *.mexw64* (64-bit Windows) executables, so there is no need to recompile the *.c* files on a 64-bit Windows platform.
 
 To familiarize one's self with how the MATLAB Executable files (*.mex*) work:
-
 [http://www.mathworks.com/help/matlab/create-mex-files.html](http://www.mathworks.com/help/matlab/create-mex-files.html)
 
 To compile a *.mex* file, a correctly configured compiler is necessary. See:
-
 [http://www.mathworks.com/help/matlab/matlab_external/building-mex-files.html](http://www.mathworks.com/help/matlab/matlab_external/building-mex-files.html)
 
 Compiled executables for /Utilities/GetFullPath/GetFullPath.c can also be found at:
