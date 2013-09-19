@@ -1,8 +1,10 @@
-.gitignore export-ignore
-.gitignore export-ignore
-*.md       export-ignore
-*.m      eol=crlf
-*.txt    eol=crlf
-*.md     eol=crlf
+.gitattributes export-ignore
+.gitignore     export-ignore
+*.md           export-ignore
+
+*.m            eol=crlf
+*.txt          eol=crlf
+*.md           eol=crlf
+
 *.pdf    binary
 *.mex*   binary
