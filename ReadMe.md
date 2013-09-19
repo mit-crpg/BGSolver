@@ -6,7 +6,7 @@ To install BGSolver v1.03:
 1. Navigate MATLAB to the [/Installer](Installer/) directory.
 2. Execute the following script:
 
-[`installBGSolver`](Installer/installBGSolver.m)
+   [`installBGSolver`](Installer/installBGSolver.m)
 
 ----------------------------
 To uninstall BGSolver v1.03:
@@ -15,7 +15,7 @@ To uninstall BGSolver v1.03:
 1. This will only work if BGSolver v1.03 has been installed, which means its subdirectories are on MATLAB path.
 2. Execute the following script:
 
-[`uninstallBGSolver`](Installer/installBGSolver.m)
+   [`uninstallBGSolver`](Installer/installBGSolver.m)
 
 ----------------------------------
 Note on **.mex** file compilation:
@@ -30,16 +30,18 @@ To compile the **.mex** files:
 3. Execute the following script:
 
    [`compileBGSolver`](Installer/compileBGSolver.m)
-
 4. If the script does not report any errors or warnings, the compilation was successful.
 
 The code is distributed with **.mexw64** (64-bit Windows) executables, so there is no need to recompile the **.c** files on a 64-bit Windows platform.
 
 To familiarize one's self with how the MATLAB Executable files ( **.mex** ) work:
- [http://www.mathworks.com/help/matlab/create-mex-files.html](http://www.mathworks.com/help/matlab/create-mex-files.html)
+
+[http://www.mathworks.com/help/matlab/create-mex-files.html](http://www.mathworks.com/help/matlab/create-mex-files.html)
 
 To compile a **.mex** file, a correctly configured compiler is necessary. See:
- [http://www.mathworks.com/help/matlab/matlab_external/building-mex-files.html](http://www.mathworks.com/help/matlab/matlab_external/building-mex-files.html) 
+
+[http://www.mathworks.com/help/matlab/matlab_external/building-mex-files.html](http://www.mathworks.com/help/matlab/matlab_external/building-mex-files.html)
 
 Compiled executables for [/Utilities/GetFullPath/GetFullPath.c](Utilities/GetFullPath/GetFullPath.c) can also be found at:
- [http://www.n-simon.de/mex](http://www.n-simon.de/mex)
+
+[http://www.n-simon.de/mex](http://www.n-simon.de/mex)
