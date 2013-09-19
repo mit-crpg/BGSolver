@@ -12,8 +12,8 @@ To install BGSolver v1.03:
 To uninstall BGSolver v1.03:
 ----------------------------
 
-0. This will only work if BGSolver v1.03 has been installed, which means its subdirectories are on MATLAB path.
-1. Execute the following script:
+1. This will only work if BGSolver v1.03 has been installed, which means its subdirectories are on MATLAB path.
+2. Execute the following script:
 
 [`uninstallBGSolver`](Installer/installBGSolver.m)
 
@@ -25,13 +25,13 @@ BGSolver v1.03 contains two .c files that can be compiled into **.mex**. [/BG_Pr
 
 To compile the **.mex** files:
 
-0. This will only work with a correctly configured compiler. Compilers are configured through `mex -setup` command. To compile [/BG_Processor/evalxdot.c](BG_Processor/evalxdot.c), the compiler must support OpenMP 2.0. Note, that Microsoft Software Development Kit (SDK) 7.1 does NOT support OpenMP 2.0, and therefore will not be able to compile [/BG_Processor/evalxdot.c](BG_Processor/evalxdot.c).
-1. Ensure that BGSolver v1.03 has been installed. See the instructions above for how to install BGSolver v1.03.
-2. Execute the following script:
+1. This will only work with a correctly configured compiler. Compilers are configured through `mex -setup` command. To compile [/BG_Processor/evalxdot.c](BG_Processor/evalxdot.c), the compiler must support OpenMP 2.0. Note, that Microsoft Software Development Kit (SDK) 7.1 does NOT support OpenMP 2.0, and therefore will not be able to compile [/BG_Processor/evalxdot.c](BG_Processor/evalxdot.c).
+2. Ensure that BGSolver v1.03 has been installed. See the instructions above for how to install BGSolver v1.03.
+3. Execute the following script:
 
-[`compileBGSolver`](Installer/compileBGSolver.m)
+   [`compileBGSolver`](Installer/compileBGSolver.m)
 
-3. If the script does not report any errors or warnings, the compilation was successful.
+4. If the script does not report any errors or warnings, the compilation was successful.
 
 The code is distributed with **.mexw64** (64-bit Windows) executables, so there is no need to recompile the **.c** files on a 64-bit Windows platform.
 
