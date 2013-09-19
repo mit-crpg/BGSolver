@@ -3,8 +3,6 @@ BGSolver
 To install BGSolver v1.03:
 --------------------------
 
-TEST
-
 1. Navigate MATLAB to the [/Installer](Installer/) directory.
 2. Execute the following script:
 
