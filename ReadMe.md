@@ -17,13 +17,13 @@ To uninstall BGSolver v1.03:
 
 [`uninstallBGSolver`](Installer/installBGSolver.m)
 
---------------------------------
-Note on *.mex* file compilation:
---------------------------------
+----------------------------------
+Note on **.mex** file compilation:
+----------------------------------
 
-BGSolver v1.03 contains two .c files that can be compiled into *.mex*. [/BG_Processor/evalxdot.c](BG_Processor/evalxdot.c) function, in particular, greatly improves the code's performance if it is compiled into a *.mex* file. Note, that the code is fully functional WITHOUT compiling any of the .c files as well, but ensuring that *.mex* files are present may improve the code performance.
+BGSolver v1.03 contains two .c files that can be compiled into **.mex**. [/BG_Processor/evalxdot.c](BG_Processor/evalxdot.c) function, in particular, greatly improves the code's performance if it is compiled into a **.mex** file. Note, that the code is fully functional WITHOUT compiling any of the .c files as well, but ensuring that **.mex** files are present may improve the code performance.
 
-To compile the *.mex* files:
+To compile the **.mex** files:
 
 0. This will only work with a correctly configured compiler. Compilers are configured through `mex -setup` command. To compile [/BG_Processor/evalxdot.c](BG_Processor/evalxdot.c), the compiler must support OpenMP 2.0. Note, that Microsoft Software Development Kit (SDK) 7.1 does NOT support OpenMP 2.0, and therefore will not be able to compile [/BG_Processor/evalxdot.c](BG_Processor/evalxdot.c).
 1. Ensure that BGSolver v1.03 has been installed. See the instructions above for how to install BGSolver v1.03.
@@ -33,13 +33,13 @@ To compile the *.mex* files:
 
 3. If the script does not report any errors or warnings, the compilation was successful.
 
-The code is distributed with *.mexw64* (64-bit Windows) executables, so there is no need to recompile the *.c* files on a 64-bit Windows platform.
+The code is distributed with **.mexw64** (64-bit Windows) executables, so there is no need to recompile the **.c** files on a 64-bit Windows platform.
 
-To familiarize one's self with how the MATLAB Executable files (*.mex*) work:
+To familiarize one's self with how the MATLAB Executable files (**.mex**) work:\n
 [http://www.mathworks.com/help/matlab/create-mex-files.html](http://www.mathworks.com/help/matlab/create-mex-files.html)
 
-To compile a *.mex* file, a correctly configured compiler is necessary. See:
+To compile a **.mex** file, a correctly configured compiler is necessary. See:\n
 [http://www.mathworks.com/help/matlab/matlab_external/building-mex-files.html](http://www.mathworks.com/help/matlab/matlab_external/building-mex-files.html)
 
-Compiled executables for /Utilities/GetFullPath/GetFullPath.c can also be found at:
+Compiled executables for [/Utilities/GetFullPath/GetFullPath.c](Utilities/GetFullPath/GetFullPath.c) can also be found at:\n
 [http://www.n-simon.de/mex](http://www.n-simon.de/mex)
