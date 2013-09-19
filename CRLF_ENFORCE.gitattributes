@@ -1,0 +1,3 @@
+*.m      eol=crlf
+*.txt    eol=crlf
+*.md     eol=crlf
